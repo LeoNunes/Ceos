@@ -7,8 +7,8 @@
     <ProjectGuid>{5DD611B7-6414-4D8F-A1F7-4A4F95DD86E2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Interface</RootNamespace>
-    <AssemblyName>Interface</AssemblyName>
+    <RootNamespace>Ceos.Interface</RootNamespace>
+    <AssemblyName>Ceos.Interface</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -53,6 +53,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="WPF\Converters\BoolInverter.cs" />
+    <Compile Include="WPF\Converters\BoolToVisibility.cs" />
+    <Compile Include="WPF\Converters\CombiningConverter.cs" />
+    <Compile Include="WPF\Converters\EnumToBool.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
